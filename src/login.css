@@ -1,0 +1,193 @@
+/* Roboto Google Fonts */
+@import url('https://fonts.googleapis.com/css2?family=Cormorant:ital,wght@0,600;0,700;1,400&family=Roboto:ital,wght@0,400;0,700;0,900;1,500&display=swap');
+
+/* Main Container for Login */
+.login-container {
+  font-family: "Roboto", sans-serif;
+  margin: 97px 0 0 137px;
+  width: 85%;
+}
+
+/* Brand Logo */
+.logo {
+  margin-top: 97px;
+}
+
+/* Brand Name */
+.brandName {
+  font-size: 34px;
+  font-weight: 700;
+  margin-top: 20px;
+}
+
+/* Text under Brand Name */
+.text {
+  color: #909090;
+  font-size: 14.7px;
+  width: 80%;
+}
+
+/* Login Your Account text */
+.login {
+  font-size: 24px;
+  font-weight: 700;
+  margin-left: 130px;
+}
+
+/* Span inside Text */
+.login span {
+  color: #dd5c46;
+}
+
+/* Text-Input Fields */
+.text-input {
+  width: 100%;
+  margin: 10px 0;
+  height: 51px;
+  padding-left: 8px;
+  outline: none;
+  color: #909090;
+  border: 1px solid #707070;
+  border-bottom: 4px solid #707070;
+  background: transparent;
+}
+
+.eye-toggle {
+    position: relative;
+    bottom: 60px;
+    right: 0px;
+    float: right;
+    border-left: 1px solid #707070;
+    padding: 16px;
+    display: none;
+}
+
+.eye-hide {
+    position: relative;
+    bottom: 60px;
+    right: 0px;
+    float: right;
+    border-left: 1px solid #707070;
+    padding: 16px;
+}
+
+/* When we click on Text-Input Fields */
+.text-input:focus {
+  border: 1px solid #dd5c46;
+  border-bottom: 4px solid #dd5c46;
+}
+
+/* Forget Password Text */
+.forget-text {
+  font-size: 15px;
+  color: #707070;
+  float: right;
+  margin: 10px 0;
+  cursor: pointer;
+}
+
+/* Span inside Text */
+.forget-text span {
+  color: #dd5c46;
+}
+
+/* Login Button */
+.submit-btn {
+  background: #dd5c46;
+  border: none;
+  color: #fff;
+  font-size: 19px;
+  font-weight: 700;
+}
+
+/* Google Icon */
+.google {
+  margin-left: 45%;
+  width: 50px;
+  height: 50px;
+  padding: 3px;
+  border: 1px solid #707070;
+  border-radius: 100%;
+  cursor: pointer;
+}
+
+/* Back Support */
+.back {
+  height: 650px;
+  width: 100%;
+  position: absolute;
+  opacity: 0.6;
+  z-index: -3;
+  display: none;
+}
+
+/* Media Screen for Phone */
+@media screen and (min-width: 380px) and (max-width: 480px) {
+  .login-container {
+    margin: 20px 0 0 40px;
+  }
+
+  .back {
+    display: block;
+    margin-top: -20px;
+  }
+
+  .login {
+    font-size: 17px;
+    margin-left: 0;
+  }
+
+  .text-input {
+    height: 40px;
+  }
+
+  .submit-btn {
+    font-size: 15px;
+  }
+
+  .additional {
+    font-size: 13px;
+  }
+
+  .google {
+    width: 30px;
+    height: 30px;
+  }
+
+  .side-container {
+    display: none;
+  }
+}
+
+/* Media Screen for Medium Screen (Tablet) */
+@media screen and (min-width: 481px) and (max-width: 768px) {
+  .login-container {
+    margin: 20px 0 0 200px;
+  }
+
+  .back {
+    margin-top: -20px;
+  }
+
+  .back {
+    display: block;
+    height: 750px;
+  }
+
+  .side-container {
+    display: none;
+  }
+}
+
+/* Media Screens for Desktop */
+@media screen and (min-width: 769px) and (max-width: 992px) {
+    .login-container {
+        width: 60%;
+    }
+}
+
+@media screen and (width >= 992px) {
+    .login-container {
+        width: 90%;
+    }
+}

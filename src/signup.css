@@ -1,0 +1,292 @@
+/* Roboto Google Fonts */
+@import url("https://fonts.googleapis.com/css2?family=Cormorant:ital,wght@0,600;0,700;1,400&family=Roboto:ital,wght@0,400;0,700;0,900;1,500&display=swap");
+
+/* Main Container for Sign-up */
+.signup-container {
+  font-family: "Roboto", sans-serif;
+  margin: 97px 0 0 137px;
+  width: 85%;
+  margin-top: 30px;
+}
+
+/* Logo */
+.signup-logo {
+  width: 44px;
+  height: 50px;
+}
+
+/* Brand Name */
+.signup-brandName {
+  font-size: 34px;
+  font-weight: 700;
+  margin-top: 12px;
+}
+
+/* Signup Text */
+.signup-text {
+  color: #909090;
+  font-size: 14.7px;
+}
+
+/* Signup your Account */
+.signup {
+  color: #909090;
+  font-weight: 700;
+  margin-left: 120px;
+  margin-top: 20px;
+  font-size: 25px;
+}
+
+/* Span inside Text */
+.signup span {
+  color: #dd5c46;
+}
+
+.row>* {
+  padding-right: 0 !important;
+}
+
+/* Input-Fields */
+.text-input-forName {
+  width: 87%;
+  height: 51px;
+  margin: 10px 0px;
+  padding: 0px 0px 0px 10px;
+  font-size: 18px;
+  border: 1px solid #707070;
+  border-bottom: 4px solid #707070;
+  color: #707070;
+  outline: none;
+  background: transparent;
+  position: relative;
+
+}
+
+.ln {
+  position: relative;
+  right: 20px;
+  width: 87%;
+}
+
+.text-input {
+  width: 90%;
+  height: 51px;
+  margin: 10px 0;
+  padding-left: 10px;
+  font-size: 18px;
+  border: 1px solid #707070;
+  border-bottom: 4px solid #707070;
+  color: #707070;
+  outline: none;
+  background: transparent;
+}
+
+/* When Focus on Text-Inputs */
+.text-input-forName:focus,
+.text-input:focus {
+  border: 1px solid #dd5c46;
+  border-bottom: 4px solid #dd5c46;
+}
+
+.signup-btn {
+  background-color: #dd5c46;
+  color: #fff;
+  border: none;
+  font-weight: 700;
+  font-size: 19px;
+}
+
+/* Eye Buttons */
+.eye-toggle {
+  position: relative;
+  bottom: 60px;
+  right: 50px;
+  float: right;
+  padding: 16px;
+  display: none;
+  cursor: pointer;
+}
+
+.eye-hide {
+  position: relative;
+  bottom: 60px;
+  right: 50px;
+  float: right;
+  padding: 16px;
+  cursor: pointer;
+  /* display: none; */
+}
+
+/* Already have account */
+.additional {
+  font-size: 14px;
+  color: #707070;
+  float: right;
+  margin-right: 45px;
+  margin-top: 10px;
+}
+
+.additional span {
+  color: #dd5c46;
+  cursor: pointer;
+  font-weight: 700;
+}
+
+.google {
+  margin-left: 45%;
+  width: 50px;
+  height: 50px;
+  padding: 3px;
+  border: 1px solid #707070;
+  border-radius: 100%;
+  cursor: pointer;
+}
+
+/* Back Support */
+.back {
+  height: 650px;
+  width: 74%;
+  position: absolute;
+  opacity: 0.6;
+  z-index: -3;
+  display: none;
+}
+
+.elipse-signup {
+  height: 913px;
+}
+
+.people-signup {
+  height: 760px;
+  top: 70px;
+}
+
+/* Media Screen for Phone */
+@media screen and (min-width: 380px) and (max-width: 480px) {
+  .signup-container {
+    margin: 20px 0 0 120px;
+  }
+
+  .back {
+    display: block;
+    margin-top: -20px;
+    height: 800px;
+    width: 100%;
+  }
+
+  .signup {
+    font-size: 17px;
+    margin-left: 0;
+  }
+
+  .text-input-forName {
+    height: 40px;
+    width: 80%;
+    font-size: 14px;
+    border-bottom: 2px solid #707070;
+    position: static;
+  }
+
+  .text-input {
+    height: 40px;
+    width: 80%;
+    font-size: 14px;
+    border-bottom: 2px solid #707070;
+  }
+
+  .text-input-forName:focus,
+  .text-input:focus {
+    border-bottom: 2px solid #dd5c46;
+  }
+
+  .additional {
+    margin-right: 67px;
+    font-size: 10px;
+  }
+
+  .google {
+    margin-left: 35%;
+  }
+
+  .eye-hide, .eye-toggle {
+    padding: 9px;
+    bottom: 50px;
+    right: 70px;
+  }
+
+  .signup-btn {
+    font-size: 15px;
+    margin: 8px 0;
+  }
+
+  .google {
+    width: 30px;
+    height: 30px;
+  }
+
+  .side-container {
+    display: none;
+  }
+}
+
+/* Media Screen for Medium Screen (Tablet) */
+@media screen and (min-width: 481px) and (max-width: 768px) {
+  .signup-container {
+    margin: 20px 0 0 100px;
+    /* border: 1px solid #000; */
+  }
+
+  .text-input-forName {
+    width: 90%;
+    margin: 15px 0px;
+    height: 45px;
+    border-bottom: 2px solid #707070;
+    position: static;
+  }
+
+  .text-input {
+    margin: 15px 0px;
+    height: 45px;
+    border-bottom: 2px solid #707070;
+    
+  }
+
+  .text-input-forName:focus,
+  .text-input:focus {
+    border-bottom: 2px solid #dd5c46;
+  }
+
+  .eye-hide,
+  .eye-toggle {
+    bottom: 60px;
+    padding: 14px;
+  }
+
+  .signup-btn {
+    border-bottom: 1px solid #dd5c46;
+  }
+
+  .back {
+    margin-top: -20px;
+    display: block;
+    height: 900px;
+    right: 0px;
+  }
+
+  .side-container {
+    display: none;
+  }
+}
+
+/* Media Screens for Desktop */
+@media screen and (min-width: 769px) and (max-width: 992px) {
+  .signup-container {
+    width: 60%;
+  }
+}
+
+@media screen and (width >= 992px) {
+  .signup-container {
+    width: 90%;
+  }
+}
